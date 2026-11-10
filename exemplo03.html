@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCC202 Exemplo 03</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul > li{
+            border: 1px solid green;
+            background-color: lightgreen;
+        }
+
+
+        .descontructed-pancake{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .descontructed-pancake > *{
+            flex: 1 1 120px;
+        }
+
+        .sidebar-say{
+            display: grid;
+            grid-template-columns: minmax(9ch, 20%) 1fr;
+            gap: 8px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <article class="sidebar-say">
+            <section>
+                <ul >
+                    <li>Huginho</li>
+                    <li>Zezinho</li>
+                    <li>Luizinho</li>
+                    <li>Betina</li>
+                </ul>
+            </section>
+
+            <section>
+                Teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste teste teste teste
+                teste teste teste teste teste teste teste teste teste. Final do texto.
+            </section>
+           
+        </article>
+        
+    </main>
+</body>
+</html>
